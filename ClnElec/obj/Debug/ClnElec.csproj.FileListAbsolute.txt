@@ -1,0 +1,30 @@
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\ClnElec.dll.config
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\ClnElec.dll
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\ClnElec.pdb
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\CadElec.dll
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\EntityFramework.dll
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\EntityFramework.SqlServer.dll
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\CadElec.pdb
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\CadElec.dll.config
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\EntityFramework.xml
+C:\proyecto oficial 457\Proyecto\ClnElec\bin\Debug\EntityFramework.SqlServer.xml
+C:\proyecto oficial 457\Proyecto\ClnElec\obj\Debug\ClnElec.csprojAssemblyReference.cache
+C:\proyecto oficial 457\Proyecto\ClnElec\obj\Debug\ClnElec.csproj.CoreCompileInputs.cache
+C:\proyecto oficial 457\Proyecto\ClnElec\obj\Debug\ClnElec.csproj.CopyComplete
+C:\proyecto oficial 457\Proyecto\ClnElec\obj\Debug\ClnElec.dll
+C:\proyecto oficial 457\Proyecto\ClnElec\obj\Debug\ClnElec.pdb
+D:\Proyecto\ClnElec\bin\Debug\ClnElec.dll.config
+D:\Proyecto\ClnElec\bin\Debug\ClnElec.dll
+D:\Proyecto\ClnElec\bin\Debug\ClnElec.pdb
+D:\Proyecto\ClnElec\bin\Debug\CadElec.dll
+D:\Proyecto\ClnElec\bin\Debug\EntityFramework.dll
+D:\Proyecto\ClnElec\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyecto\ClnElec\bin\Debug\CadElec.pdb
+D:\Proyecto\ClnElec\bin\Debug\CadElec.dll.config
+D:\Proyecto\ClnElec\bin\Debug\EntityFramework.xml
+D:\Proyecto\ClnElec\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyecto\ClnElec\obj\Debug\ClnElec.csprojAssemblyReference.cache
+D:\Proyecto\ClnElec\obj\Debug\ClnElec.csproj.CoreCompileInputs.cache
+D:\Proyecto\ClnElec\obj\Debug\ClnElec.csproj.CopyComplete
+D:\Proyecto\ClnElec\obj\Debug\ClnElec.dll
+D:\Proyecto\ClnElec\obj\Debug\ClnElec.pdb

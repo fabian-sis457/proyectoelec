@@ -1,0 +1,24 @@
+C:\proyecto oficial 457\Proyecto\CadElec\bin\Debug\CadElec.dll.config
+C:\proyecto oficial 457\Proyecto\CadElec\bin\Debug\CadElec.dll
+C:\proyecto oficial 457\Proyecto\CadElec\bin\Debug\CadElec.pdb
+C:\proyecto oficial 457\Proyecto\CadElec\bin\Debug\EntityFramework.dll
+C:\proyecto oficial 457\Proyecto\CadElec\bin\Debug\EntityFramework.SqlServer.dll
+C:\proyecto oficial 457\Proyecto\CadElec\bin\Debug\EntityFramework.xml
+C:\proyecto oficial 457\Proyecto\CadElec\bin\Debug\EntityFramework.SqlServer.xml
+C:\proyecto oficial 457\Proyecto\CadElec\obj\Debug\CadElec.csproj.CoreCompileInputs.cache
+C:\proyecto oficial 457\Proyecto\CadElec\obj\Debug\CadElec.csproj.CopyComplete
+C:\proyecto oficial 457\Proyecto\CadElec\obj\Debug\CadElec.dll
+C:\proyecto oficial 457\Proyecto\CadElec\obj\Debug\CadElec.pdb
+C:\proyecto oficial 457\Proyecto\CadElec\obj\Debug\CadElec.csprojAssemblyReference.cache
+D:\Proyecto\CadElec\bin\Debug\CadElec.dll.config
+D:\Proyecto\CadElec\bin\Debug\CadElec.dll
+D:\Proyecto\CadElec\bin\Debug\CadElec.pdb
+D:\Proyecto\CadElec\bin\Debug\EntityFramework.dll
+D:\Proyecto\CadElec\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyecto\CadElec\bin\Debug\EntityFramework.xml
+D:\Proyecto\CadElec\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyecto\CadElec\obj\Debug\CadElec.csprojAssemblyReference.cache
+D:\Proyecto\CadElec\obj\Debug\CadElec.csproj.CoreCompileInputs.cache
+D:\Proyecto\CadElec\obj\Debug\CadElec.csproj.CopyComplete
+D:\Proyecto\CadElec\obj\Debug\CadElec.dll
+D:\Proyecto\CadElec\obj\Debug\CadElec.pdb

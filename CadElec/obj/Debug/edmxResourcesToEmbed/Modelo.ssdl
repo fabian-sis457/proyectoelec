@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VentaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nit" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="razonSocial" Type="varchar" MaxLength="250" />
+    <Property Name="nombre" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="aPaterno" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="aMaterno" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Compra">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="transaccion" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="fecha" Type="date" Nullable="false" />
+    <Property Name="idProveedor" Type="int" Nullable="false" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CompraDetalle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idCompra" Type="int" Nullable="false" />
+    <Property Name="idProducto" Type="int" Nullable="false" />
+    <Property Name="cantidad" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="precioUnitario" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="total" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cedulaIdentidad" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="nombres" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="paterno" Type="varchar" MaxLength="50" />
+    <Property Name="materno" Type="varchar" MaxLength="50" />
+    <Property Name="direccion" Type="varchar" MaxLength="250" />
+    <Property Name="celular" Type="bigint" />
+    <Property Name="cargo" Type="varchar" MaxLength="250" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codigo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="unidadMedia" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="saldo" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="precioVenta" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nit" Type="bigint" Nullable="false" />
+    <Property Name="razonSocial" Type="varchar" MaxLength="250" />
+    <Property Name="direccion" Type="varchar" MaxLength="250" />
+    <Property Name="telefono" Type="varchar" MaxLength="50" />
+    <Property Name="representante" Type="varchar" MaxLength="100" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="clave" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="idEmpleado" Type="int" Nullable="false" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Venta">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idUsuario" Type="int" Nullable="false" />
+    <Property Name="idCliente" Type="int" Nullable="false" />
+    <Property Name="transaccion" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="fecha" Type="date" Nullable="false" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="VentaDetalle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idVenta" Type="int" Nullable="false" />
+    <Property Name="idProducto" Type="int" Nullable="false" />
+    <Property Name="cantidad" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="precioUnitario" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="total" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="registroActivo" Type="bit" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Cliente_Venta">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Compra_CompraDetalle">
+    <End Role="Compra" Type="Self.Compra" Multiplicity="1" />
+    <End Role="CompraDetalle" Type="Self.CompraDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Compra">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="CompraDetalle">
+        <PropertyRef Name="idCompra" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Empleado_Usuario">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idEmpleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Producto_CompraDetalle">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
+    <End Role="CompraDetalle" Type="Self.CompraDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="CompraDetalle">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Producto_VentaDetalle">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
+    <End Role="VentaDetalle" Type="Self.VentaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="VentaDetalle">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Proveedor_Comprar">
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="1" />
+    <End Role="Compra" Type="Self.Compra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Compra">
+        <PropertyRef Name="idProveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Venta">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Venta_VentaDetalle">
+    <End Role="Venta" Type="Self.Venta" Multiplicity="1" />
+    <End Role="VentaDetalle" Type="Self.VentaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venta">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="VentaDetalle">
+        <PropertyRef Name="idVenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="listarVentaDetalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="paClienteListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paCliListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paEmpleadoListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paEmpListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paPrctListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paProdListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paProductoListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paProductoofListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paProListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paProveedorListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paUsuarioListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paUsuListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="paVENTASDETALLE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="PRODUCTOLIST" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ProductoListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Usuariolistar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="VentaDetalleListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="VentaModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Compra" EntityType="Self.Compra" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompraDetalle" EntityType="Self.CompraDetalle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Producto" EntityType="Self.Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proveedor" EntityType="Self.Proveedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Venta" EntityType="Self.Venta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VentaDetalle" EntityType="Self.VentaDetalle" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Cliente_Venta" Association="Self.FK_Cliente_Venta">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Compra_CompraDetalle" Association="Self.FK_Compra_CompraDetalle">
+      <End Role="Compra" EntitySet="Compra" />
+      <End Role="CompraDetalle" EntitySet="CompraDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Empleado_Usuario" Association="Self.FK_Empleado_Usuario">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Producto_CompraDetalle" Association="Self.FK_Producto_CompraDetalle">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="CompraDetalle" EntitySet="CompraDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Producto_VentaDetalle" Association="Self.FK_Producto_VentaDetalle">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="VentaDetalle" EntitySet="VentaDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Proveedor_Comprar" Association="Self.FK_Proveedor_Comprar">
+      <End Role="Proveedor" EntitySet="Proveedor" />
+      <End Role="Compra" EntitySet="Compra" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Venta" Association="Self.FK_Usuario_Venta">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Venta_VentaDetalle" Association="Self.FK_Venta_VentaDetalle">
+      <End Role="Venta" EntitySet="Venta" />
+      <End Role="VentaDetalle" EntitySet="VentaDetalle" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

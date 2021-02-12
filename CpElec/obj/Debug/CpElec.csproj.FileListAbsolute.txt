@@ -1,0 +1,102 @@
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.csprojAssemblyReference.cache
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmAutenticacion.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.Properties.Resources.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.csproj.GenerateResource.cache
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.csproj.CoreCompileInputs.cache
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\CpElec.exe.config
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\CpElec.exe
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\CpElec.pdb
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\CadElec.dll
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\ClnElec.dll
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\EntityFramework.dll
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\EntityFramework.SqlServer.dll
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\CadElec.pdb
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\CadElec.dll.config
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\ClnElec.pdb
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\ClnElec.dll.config
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\EntityFramework.xml
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\EntityFramework.SqlServer.xml
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.csproj.CopyComplete
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.exe
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.pdb
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmPrincipal.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.exe.licenses
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\C1.Win.C1Ribbon.4.dll
+C:\proyecto oficial 457\Proyecto\CpElec\bin\Debug\C1.Win.C1Ribbon.4.xml
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmCliente.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmProveedor.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmProducto.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmEmpleado.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmUsuario.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmBuscarEmpleado.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmVenta.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmBuscarCliente.resources
+C:\proyecto oficial 457\Proyecto\CpElec\obj\Debug\CpElec.FrmProductoBuscar.resources
+D:\Proyecto\CpElec\bin\Debug\CpElec.exe.config
+D:\Proyecto\CpElec\bin\Debug\CpElec.exe
+D:\Proyecto\CpElec\bin\Debug\CpElec.pdb
+D:\Proyecto\CpElec\bin\Debug\C1.Win.C1Ribbon.4.dll
+D:\Proyecto\CpElec\bin\Debug\CadElec.dll
+D:\Proyecto\CpElec\bin\Debug\ClnElec.dll
+D:\Proyecto\CpElec\bin\Debug\EntityFramework.dll
+D:\Proyecto\CpElec\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyecto\CpElec\bin\Debug\CadElec.pdb
+D:\Proyecto\CpElec\bin\Debug\CadElec.dll.config
+D:\Proyecto\CpElec\bin\Debug\ClnElec.pdb
+D:\Proyecto\CpElec\bin\Debug\ClnElec.dll.config
+D:\Proyecto\CpElec\bin\Debug\C1.Win.C1Ribbon.4.xml
+D:\Proyecto\CpElec\bin\Debug\EntityFramework.xml
+D:\Proyecto\CpElec\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyecto\CpElec\obj\Debug\CpElec.csprojAssemblyReference.cache
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmAutenticacion.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmBuscarCliente.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmBuscarEmpleado.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmCliente.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmEmpleado.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmPrincipal.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmProducto.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmProductoBuscar.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmProveedor.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmUsuario.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.FrmVenta.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.Properties.Resources.resources
+D:\Proyecto\CpElec\obj\Debug\CpElec.csproj.GenerateResource.cache
+D:\Proyecto\CpElec\obj\Debug\CpElec.exe.licenses
+D:\Proyecto\CpElec\obj\Debug\CpElec.csproj.CoreCompileInputs.cache
+D:\Proyecto\CpElec\obj\Debug\CpElec.csproj.CopyComplete
+D:\Proyecto\CpElec\obj\Debug\CpElec.exe
+D:\Proyecto\CpElec\obj\Debug\CpElec.pdb
+D:\Electronic\Proyecto\CpElec\bin\Debug\CpElec.exe.config
+D:\Electronic\Proyecto\CpElec\bin\Debug\CpElec.exe
+D:\Electronic\Proyecto\CpElec\bin\Debug\CpElec.pdb
+D:\Electronic\Proyecto\CpElec\bin\Debug\C1.Win.C1Ribbon.4.dll
+D:\Electronic\Proyecto\CpElec\bin\Debug\CadElec.dll
+D:\Electronic\Proyecto\CpElec\bin\Debug\ClnElec.dll
+D:\Electronic\Proyecto\CpElec\bin\Debug\EntityFramework.dll
+D:\Electronic\Proyecto\CpElec\bin\Debug\EntityFramework.SqlServer.dll
+D:\Electronic\Proyecto\CpElec\bin\Debug\CadElec.pdb
+D:\Electronic\Proyecto\CpElec\bin\Debug\CadElec.dll.config
+D:\Electronic\Proyecto\CpElec\bin\Debug\ClnElec.pdb
+D:\Electronic\Proyecto\CpElec\bin\Debug\ClnElec.dll.config
+D:\Electronic\Proyecto\CpElec\bin\Debug\C1.Win.C1Ribbon.4.xml
+D:\Electronic\Proyecto\CpElec\bin\Debug\EntityFramework.xml
+D:\Electronic\Proyecto\CpElec\bin\Debug\EntityFramework.SqlServer.xml
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.csprojAssemblyReference.cache
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmAutenticacion.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmBuscarCliente.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmBuscarEmpleado.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmCliente.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmEmpleado.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmPrincipal.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmProducto.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmProductoBuscar.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmProveedor.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmUsuario.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.FrmVenta.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.Properties.Resources.resources
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.csproj.GenerateResource.cache
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.exe.licenses
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.csproj.CoreCompileInputs.cache
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.csproj.CopyComplete
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.exe
+D:\Electronic\Proyecto\CpElec\obj\Debug\CpElec.pdb

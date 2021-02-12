@@ -1,0 +1,12 @@
+para hacer correr el sistema
+--Usuarios y password
+franz
+1234
+fabian
+fabian
+----------------
+Base de datos tiene que remplazar en las App.config las
+direcciones del servidor de sql server
+----------------
+despues restaure la base de datos y cree un usuario proyectelec con las claves 1234
+ 
